@@ -37,7 +37,7 @@ const Chart = () => {
  useEffect(() => {
      const intervalId = setInterval (() => {
      
-     fetch("https://internet.nectec.or.th/dummy/test.json")
+     fetch("<YOUR API URL>")
        .then(response => {
           return response.json();
       })
