@@ -6,6 +6,28 @@
 // @Author : Phusit Roongroj <phusit@nectec.or.th>
 // 2021
 //
+// Example api data
+ /*[
+  {
+    "Date": "Jan-01",
+    "Price1": 55.34,
+    "Price2": 61.05,
+    "Price3": 1.791
+  },
+  {
+    "Date": "Feb-02",
+    "Price1": 55.6,
+    "Price2": 45.39,
+    "Price3": 50
+  },
+  {
+    "Date": "Mar-02",
+    "Price1": 105.6,
+    "Price2": 72.39,
+    "Price3": 20
+  }
+]
+*/
 
 import React, { useState, useEffect } from "react";
 // Import Highcharts
